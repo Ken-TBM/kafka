@@ -62,5 +62,5 @@ services:
       KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://172.17.0.1:9094
       KAFKA_LISTENERS: PLAINTEXT://0.0.0.0:9094
     container_name: kafka03
-
+#docker compose
 COMPOSE_PROJECT_NAME=zookeeper_cluster docker-compose -f docker-compose.yml up -d
